@@ -8,7 +8,7 @@ To provide instant visual feedback, the system includes LED indicators that sign
 Beyond visual alerts, the system features a cooling fan that automatically activates when the temperature exceeds a predefined threshold. The fan speed is dynamically controlled using PWM (Pulse Width Modulation)⚡, with a duty cycle that adjusts based on a threshold-based control system, ensuring proportional and efficient cooling.
 
 Hardware Implementation
-In addition to the STM32F3DISCOVERY, the project required the use of an Arduino board to provide a stable 5V power supply to the system. Furthermore, for the physical implementation of fan and LED control, a board with transistors and resistors was integrated, ensuring proper current handling and signal switching.
+In addition to the STM32F3DISCOVERY, an Arduino board was used to provide a stable 5V power supply for the system. Furthermore, a board with transistors and resistors was integrated alongside the LEDs and the fan, ensuring efficient current management and signal control for the entire system.
 
 Software Development
 The project was developed in C, utilizing the STM32’s capabilities to ensure high performance and precise temperature control.
